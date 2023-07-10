@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
         <nav className="navigation">
-            <a href="/personal_site" className="brand-name">
+            <a href="/" className="brand-name">
                 Arya Ranadive
             </a>
             <button className="hamburger"
