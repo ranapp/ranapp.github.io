@@ -1,0 +1,49 @@
+.lowertext{
+    font-size: 1em;
+}
+
+.headingedits{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    column-gap: 2vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin-top: 8rem;
+    margin-left: 23rem;
+    margin-right: 23rem;
+    gap: 1px;
+
+}
+
+h1{
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.highlight{
+    font-weight: 400;
+}
+
+@media (max-width: 950px) {
+
+.headingedits{
+    margin-top: 6rem;
+    margin-left: 18em;
+    margin-right: 18rem;
+}
+
+}
+
+@media (max-width: 650px) {
+
+    .headingedits{
+        margin-top: 6rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+
+}
