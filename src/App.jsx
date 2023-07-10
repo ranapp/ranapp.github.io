@@ -15,7 +15,7 @@ const App = () => {
     <div className="content">
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/personal_site" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="photography" element={<Photography />} />
