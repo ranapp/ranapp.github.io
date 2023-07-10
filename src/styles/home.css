@@ -2,6 +2,10 @@
     font-size: 1em;
 }
 
+.bold-text {
+    font-weight: bold;
+  }
+
 .headingedits{
     display: flex;
     flex-flow:column wrap;
