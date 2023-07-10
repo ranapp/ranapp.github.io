@@ -9,7 +9,7 @@ function Home() {
         <>
             <div className="headingtext">
                 <div className="headingedits">
-                    <TypeAnimation  sequence={["Hello! I'm Arya Ranadive and I love creating things."]} wrapper="span" speed={75} style={{ fontWeight: '300', fontSize: '2.1em' }}/>
+                    <TypeAnimation  sequence={["Hello! I'm Arya Ranadive and I love creating things."]} wrapper="span" speed={35} style={{ fontWeight: '300', fontSize: '2.1em' }}/>
                     <p className='lowertext'> I'm so glad you're here! You can read more about some of the <Link to="/projects"> projects </Link> I've done in the past or
                         browse through some of the <Link to="/photography"> photos </Link> I've clicked. </p>
 

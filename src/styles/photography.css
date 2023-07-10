@@ -1,0 +1,17 @@
+.gallery{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.gallery-thumbnail {
+    margin-right: 20px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 250px;
+    }
