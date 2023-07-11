@@ -15,7 +15,7 @@ function Home() {
 
                     <p className='lowertext'> I've recently graduated from UC Davis and will soon start at Deloitte as a Solutions Engineering Analyst in Government and Public Services.</p>
 
-                    <p className='lowertext'> Feel free to explore my portfolio and <a className="emaillink" href="mailto:aryaaranadive@gmail.com">get in touch </a> if you have any questions or would like to discuss a potential collaboration.
+                    <p className='lowertext'> Feel free to explore my portfolio and <a className="emaillink" href="mailto:aryaaranadive@gmail.com">get in touch </a> if you have any questions or would like to discuss a potential collaboration. I'm always open to new opportunities.
                         I look forward to connecting with you!</p>
                 </div>
             </div>
