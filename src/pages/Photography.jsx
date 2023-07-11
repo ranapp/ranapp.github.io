@@ -13,8 +13,8 @@ function Photography() {
         {imageKeys.map((imageKey) => (
           <Item
             key={imageKey}
-            original={`/images/${imageKey}`} // Update the path to match your image location within the public folder
-            thumbnail={`/images/${imageKey}`} // Update the path to match your image location within the public folder
+            original={`/images/${imageKey}`} 
+            thumbnail={`/images/${imageKey}`} 
             width="600"
             height="500"
           >
