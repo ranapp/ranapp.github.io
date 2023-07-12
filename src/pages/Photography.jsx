@@ -4,17 +4,22 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 import "../styles/photography.css";
 
 function Photography() {
-  const imageKeys=['39.jpg', '38.jpg', '37.jpg', '36.jpg', '35.jpg', '34.jpg', '33.jpg', '32.jpg', '30.jpg', '31.jpg', '28.jpg',  '25.jpg', '26.jpg','24.jpg','22.jpg', '23.jpg', '6.jpg', '21.jpg', '20.jpg', '19.jpg', '18.jpg', '17.jpg', '16.jpg', '15.jpg', '14.jpg', '13.jpg', '12.jpg', '11.jpg', '10.jpg','9.jpg', '8.jpg', '7.jpg',  '5.jpg', '4.jpg', '3.jpg', '2.jpg', 'a.jpg']
+  const imageKeys=['img_39.jpg', 'img_38.jpg', 'img_37.jpg', 'img_36.jpg', 'img_35.jpg', 'img_34.jpg', 'img_33.jpg', 'img_32.jpg', 'img_30.jpg', 'img_31.jpg', 'img_28.jpg',  'img_25.jpg', 'img_26.jpg','img_24.jpg','img_22.jpg', 'img_23.jpg', 'img_6.jpg', 'img_21.jpg', 'img_20.jpg', 'img_19.jpg', 'img_18.jpg', 'img_17.jpg', 'z.jpg', 'img_15.jpg', 'img_4.jpg', 'img_13.jpg', 'img_14.jpg', 'img_10.jpg', 'img_11.jpg', 'img_12.jpg','img_16.jpg', 'img_8.jpg', 'img_7.jpg',  'img_5.jpg',  'img_3.jpg', 'img_2.jpg', 'a.jpg'];
+  const width = ['600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px', '600px'];
+  const height =['500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px', '500px'];
+  console.log(imageKeys);
   return (
     <div className='gallery'>
       <Gallery>
-        {imageKeys.map((imageKey) => (
+        {imageKeys.map((imageKey, index) => (
           <Item
+            className = "img-gallery"
             key={imageKey}
+            id={imageKey}
             original={`/images/${imageKey}`} 
             thumbnail={`/images/${imageKey}`} 
-            width="auto"
-            height="500"
+            width={width[index]}
+            height={height[index]}
           >
             {({ ref, open }) => (
               <img className="gallery-thumbnail" ref={ref} onClick={open} src={`/images/${imageKey}`} alt="" />

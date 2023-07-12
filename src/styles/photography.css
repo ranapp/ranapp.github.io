@@ -6,6 +6,8 @@
     align-content: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 10px;
 }
 
 .gallery-thumbnail {
@@ -15,3 +17,4 @@
     height: 300px;
     width: auto;
     }
+
