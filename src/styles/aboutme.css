@@ -1,4 +1,55 @@
 img{
-    height: auto;
-    width: 30%;
+    height: 380px;
+    width: auto;
+    margin-top: 3rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    gap: 80px;
+    margin-left: 6rem;
+
+}
+
+#italics{
+    font-style: italic;
+}
+
+.content{
+    margin-right: 4rem;
+}
+
+#heading{ 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+p, li{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+}
+
+@media (max-width: 768px) {
+    img{
+        height: 200px;
+        width: auto;
+        margin-top: 10px;
+    }
+    .section{
+        gap: 10px;
+        margin-left: 1rem;
+    }
+    .content{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
 }
