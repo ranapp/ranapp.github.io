@@ -9,9 +9,9 @@
 }
 
 .gallery-thumbnail {
-    margin-right: 20px; 
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 300px;
-    height: 250px;
+    height: 300px;
+    width: auto;
     }
