@@ -1,14 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.3937bcf1.css",
-    "main.js": "/static/js/main.658f9447.js",
+    "main.js": "/static/js/main.d21e06bd.js",
+    "static/media/artruism.png": "/static/media/artruism.10fed0c52a1b465460c5.png",
     "static/media/profile.JPG": "/static/media/profile.a3a462c59eb0126847d9.JPG",
+    "static/media/collegesuccess.png": "/static/media/collegesuccess.9b8339cc95dc61092fa1.png",
+    "static/media/genglab.png": "/static/media/genglab.2f378baac3f80fa878c7.png",
+    "static/media/collegesuccess2.png": "/static/media/collegesuccess2.b790e1312465fc458035.png",
+    "static/media/congrads2.jpg": "/static/media/congrads2.caf13cbaa6ae6aca0413.jpg",
+    "static/media/congrads1.jpg": "/static/media/congrads1.7f83b667bd33d8163fbc.jpg",
+    "static/media/waterlevels1.png": "/static/media/waterlevels1.4c6182f91efcf88a5b3b.png",
+    "static/media/scraping.png": "/static/media/scraping.599bd390a4a6828bf005.png",
     "index.html": "/index.html",
     "main.3937bcf1.css.map": "/static/css/main.3937bcf1.css.map",
-    "main.658f9447.js.map": "/static/js/main.658f9447.js.map"
+    "main.d21e06bd.js.map": "/static/js/main.d21e06bd.js.map"
   },
   "entrypoints": [
     "static/css/main.3937bcf1.css",
-    "static/js/main.658f9447.js"
+    "static/js/main.d21e06bd.js"
   ]
 }
