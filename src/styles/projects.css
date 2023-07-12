@@ -1,0 +1,39 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+
+  .project-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+
+  .project-img {
+    display: block;
+    margin: 0 auto;
+    width: 45rem;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .projects-container {
+      flex-direction: column;
+      align-items: stretch;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+   
+  }
+  
+  
