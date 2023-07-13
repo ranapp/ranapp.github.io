@@ -35,12 +35,7 @@ function Projects() {
                     </div>
 
                 </div>
-                < hr style={{
-          background: 'grey',
-          color: 'grey',
-          borderColor: 'grey',
-          height: '1px',
-        }}/>
+             
                 <div className="projectcard">
                     <h2 className="project-title">ConGRADS Degree Check Website</h2>
                     <div className='img-card2'>
@@ -66,12 +61,7 @@ function Projects() {
                     </div>
 
                 </div>
-                < hr style={{
-          background: 'lime',
-          color: 'lime',
-          borderColor: 'lime',
-          height: '3px',
-        }}/>
+           
                 <div className="projectcard">
                     <h2 className="project-title">Effect of Informational Value on Attentional Guidance </h2>
                     <p className="subtitle">UC Davis Center for Mind and Brain - Geng Lab</p>
@@ -90,12 +80,7 @@ function Projects() {
                         </p>
                     </div>
                 </div>
-                < hr style={{
-          background: 'lime',
-          color: 'lime',
-          borderColor: 'lime',
-          height: '3px',
-        }}/>
+           
                 <div className="projectcard">
                     <h2 className="project-title">Water Levels Web App</h2>
                     <img className="project-img" id="img6" src={waterlevels1}alt=""></img>
@@ -111,12 +96,7 @@ function Projects() {
                     </div>
 
                 </div>
-                < hr style={{
-          background: 'lime',
-          color: 'lime',
-          borderColor: 'lime',
-          height: '3px',
-        }}/>
+           
                 <div className="projectcard">
                     <h2 className="project-title">Web Scraping Indeed.com</h2>
                     <img className="project-img" id="img7" src={scraping}alt=""></img>
@@ -130,18 +110,8 @@ function Projects() {
                     </div>
 
                 </div>
-                < hr style={{
-          background: 'lime',
-          color: 'lime',
-          borderColor: 'lime',
-          height: '3px',
-        }}/>
-                < hr style={{
-          background: 'lime',
-          color: 'lime',
-          borderColor: 'lime',
-          height: '3px',
-        }}/>
+           
+           
                 <div className="projectcard">
                     <h2 className="project-title">Artruism Web App</h2>
                     <p className='subtitle'>#include</p>
@@ -158,12 +128,7 @@ function Projects() {
                     </div>
 
                 </div>
-                < hr style={{
-          background: 'lime',
-          color: 'lime',
-          borderColor: 'lime',
-          height: '3px',
-        }}/>
+           
                 <div className="projectcard">
                     <h2 className="project-title">Network Flow Tutors</h2>
                     <p className="tools"><span class="bold-text">Tools/Technologies Used: </span> C++</p>

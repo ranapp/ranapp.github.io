@@ -16,8 +16,8 @@ function Photography() {
             className = "img-gallery"
             key={imageKey}
             id={imageKey}
-            original={`build/images/${imageKey}`} 
-            thumbnail={`build/images/${imageKey}`} 
+            original={`public/images/${imageKey}`} 
+            thumbnail={`public/images/${imageKey}`} 
             width={width[index]}
             height={height[index]}
           >

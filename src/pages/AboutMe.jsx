@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '/Users/aryaranadive/Projects/ranapp.github.io/src/profile.JPG';
+import profile from '/Users/aryaranadive/Projects/ranapp.github.io/src/project_images/Untitled-1.jpg';
 import "../styles/aboutme.css";
 
 function AboutMe() {
