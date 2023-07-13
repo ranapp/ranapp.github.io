@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b8c66a2.css",
-    "main.js": "/static/js/main.8a759399.js",
+    "main.css": "/static/css/main.adc78763.css",
+    "main.js": "/static/js/main.b5b82692.js",
     "static/media/artruism.png": "/static/media/artruism.10fed0c52a1b465460c5.png",
     "static/media/profile.JPG": "/static/media/profile.a3a462c59eb0126847d9.JPG",
     "static/media/collegesuccess.png": "/static/media/collegesuccess.9b8339cc95dc61092fa1.png",
@@ -12,11 +12,11 @@
     "static/media/waterlevels1.png": "/static/media/waterlevels1.4c6182f91efcf88a5b3b.png",
     "static/media/scraping.png": "/static/media/scraping.599bd390a4a6828bf005.png",
     "index.html": "/index.html",
-    "main.6b8c66a2.css.map": "/static/css/main.6b8c66a2.css.map",
-    "main.8a759399.js.map": "/static/js/main.8a759399.js.map"
+    "main.adc78763.css.map": "/static/css/main.adc78763.css.map",
+    "main.b5b82692.js.map": "/static/js/main.b5b82692.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b8c66a2.css",
-    "static/js/main.8a759399.js"
+    "static/css/main.adc78763.css",
+    "static/js/main.b5b82692.js"
   ]
 }
