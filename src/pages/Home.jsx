@@ -13,7 +13,7 @@ function Home() {
                     <p className='lowertext'> I'm so glad you're here! You can read more about some of the <Link to="/projects"> projects </Link> I've done in the past or
                         browse through some of the <Link to="/photography"> photos </Link> I've clicked. </p>
 
-                    <p className='lowertext'> I've recently graduated from UC Davis and will soon start at Deloitte as a Solutions Engineering Analyst in Government and Public Services.</p>
+                    <p className='lowertext'> I've recently graduated from UC Davis and will soon start my new grad role with plans to pursue a Master's in the near future.</p>
 
                     <p className='lowertext'> Feel free to explore my portfolio and <a className="emaillink" href="mailto:aryaaranadive@gmail.com">get in touch </a> if you have any questions or would like to discuss a potential collaboration. I'm always open to new opportunities.
                         I look forward to connecting with you!</p>
