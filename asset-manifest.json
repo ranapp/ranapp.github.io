@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.502b8e03.css",
-    "main.js": "/static/js/main.170938c6.js",
+    "main.js": "/static/js/main.0096e4a2.js",
     "static/media/artruism.png": "/static/media/artruism.10fed0c52a1b465460c5.png",
     "static/media/Untitled-1.jpg": "/static/media/Untitled-1.c178fd5c9c1009cf0da9.jpg",
     "static/media/collegesuccess.png": "/static/media/collegesuccess.9b8339cc95dc61092fa1.png",
@@ -13,10 +13,10 @@
     "static/media/scraping.png": "/static/media/scraping.599bd390a4a6828bf005.png",
     "index.html": "/index.html",
     "main.502b8e03.css.map": "/static/css/main.502b8e03.css.map",
-    "main.170938c6.js.map": "/static/js/main.170938c6.js.map"
+    "main.0096e4a2.js.map": "/static/js/main.0096e4a2.js.map"
   },
   "entrypoints": [
     "static/css/main.502b8e03.css",
-    "static/js/main.170938c6.js"
+    "static/js/main.0096e4a2.js"
   ]
 }
