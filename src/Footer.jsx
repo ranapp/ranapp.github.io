@@ -13,7 +13,7 @@ const Footer = () => {
                 
                 <a href="https://www.linkedin.com/in/aryaranadive/"><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href="https://github.com/ranapp"><FontAwesomeIcon icon={faGithub} /></a>
-                <a href="https://instagram.com/arirana.jpg?igshid=OGQ5ZDc2ODk2ZA=="><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="https://instagram.com/picturesbyarya?igshid=OGQ5ZDc2ODk2ZA=="><FontAwesomeIcon icon={faInstagram} /></a>
                 <a href="mailto:aryaaranadive@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
                 </div>
                 <p>{`© ${year} Arya Ranadive `}</p>

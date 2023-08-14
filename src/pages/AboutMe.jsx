@@ -25,7 +25,7 @@ function AboutMe() {
                 <li>Twilight skies</li>
             </ul>
             <p>But most of all, hearing from you!</p>
-            <p>For inquiries, please contact me at <a href="mailto:aryaaranadive@gmail.com">aryaaranadive@gmail.com</a>. For photography inquiries, you can reach me through my email or also message me on my instagram: <a href="https://instagram.com/arirana.jpg?igshid=OGQ5ZDc2ODk2ZA==">@arirana.jpg</a>.</p>
+            <p>For inquiries, please contact me at <a href="mailto:aryaaranadive@gmail.com">aryaaranadive@gmail.com</a>. For photography inquiries, you can reach me through my email or also message me on my instagram: <a href="https://instagram.com/picturesbyarya?igshid=OGQ5ZDc2ODk2ZA==">@picturesbyarya</a>.</p>
             </div>
         </div>
     );
