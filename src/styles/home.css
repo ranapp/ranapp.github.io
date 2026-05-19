@@ -1,53 +1,66 @@
-.lowertext{
-    font-size: 1em;
+.headingtext {
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.bold-text {
-    font-weight: bold;
+.headingedits {
+  display: flex;
+  flex-direction: column;
+  margin-top: clamp(2.5rem, 8vw, 5rem);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.home-intro {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: clamp(1.6rem, 3vw + 0.85rem, 2.5rem);
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.lowertext,
+.lowertext2,
+.lowertext3 {
+  font-size: clamp(1.15rem, 2vw + 0.75rem, 1.3rem);
+  line-height: 1.65;
+  max-width: 100%;
+  text-align: center;
+}
+
+.lowertext {
+  margin-top: clamp(1.25rem, 3.5vw, 3rem);
+}
+
+.lowertext2,
+.lowertext3 {
+  margin-top: clamp(0.75rem, 2vw, 1.25rem);
+}
+
+.headingedits a {
+  color: inherit;
+}
+
+.emaillink {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.home-intro .bold-text {
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .home-intro {
+    line-height: 1.45;
   }
 
-.headingedits{
-    display: flex;
-    flex-flow:column wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: center;
-    column-gap: 2vh;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    margin-top: 8rem;
-    margin-left: 28rem;
-    margin-right: 23rem;
-    gap: 1px;
-
-}
-
-h1{
-    font-weight: 300;
-    font-size: 1.5em;
-}
-
-.highlight{
-    font-weight: 400;
-}
-
-@media (max-width: 950px) {
-
-.headingedits{
-    margin-top: 6rem;
-    margin-left: 18em;
-    margin-right: 18rem;
-}
-
-}
-
-@media (max-width: 650px) {
-
-    .headingedits{
-        margin-top: 6rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-    
-
+  .lowertext,
+  .lowertext2,
+  .lowertext3 {
+    line-height: 1.7;
+  }
 }

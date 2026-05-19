@@ -13,7 +13,7 @@ import '../styles/projects.css'
 function Projects() {
     return (
         <>
-            <div className="projects-container">
+            <div className="projects-container site-container site-container--wide">
                 <div className="projectcard">
                     <h2 className="project-title">Predicting Student Academic Success</h2>
                     <div className='img-card1'>
